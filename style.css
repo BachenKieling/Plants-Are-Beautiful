@@ -1,3 +1,12 @@
+/* Header */
+
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial;    
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -6,13 +15,73 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border: solid black;
+    background-color: #1A2902;
+}
+
+.header-right {
+    display: flex;
+    padding-right: 50px;
+    text-decoration: none;
+    gap: 50px;
 }
 
 .header-right a {
     text-decoration: none;
+    color: aliceblue;
     font-size: 18px;
-    gap: 20px;
 }
+
+.header-left {
+    padding-left: 50px;
+    color: aliceblue;
+}
+
+/* Welcome Screen */
+
+.w-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aec09a;
+    gap: 30px;
+    margin: 50px;
+    border: solid #aec09a;
+    border-radius: 200px;
+    width: 1200px;
+    min-width: 1080px;
+    box-shadow: 0px 0px 30px 10px #344c11;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #778D45;
+    gap: 30px;
+}
+
+.w-left {
+    color: aliceblue;
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.w-left h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.welcome img {
+    width: 400px;
+    height: 280px;
+    margin: 50px 0 50px 0;
+    border-radius: 30px;
+    border-bottom-right-radius:  80px;
+    border-top-right-radius: 60px;
+}
+
+/* Info Boxes */
+
