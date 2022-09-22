@@ -24,6 +24,7 @@ body {
 
 .header-right {
     display: flex;
+    flex-shrink: 0;
     padding-right: 50px;
     text-decoration: none;
     gap: 50px;
@@ -41,6 +42,7 @@ body {
     padding-left: 50px;
     color: aliceblue;
     gap: 10px;
+    flex-shrink: 0;
 }
 
 .header-left img {
@@ -106,6 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 400px;
+    margin-top: 50px;
 }
 
 .info h2 {
@@ -117,6 +120,7 @@ body {
     align-items: flex-start;
     gap: 30px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .info-box img {
@@ -129,6 +133,7 @@ body {
 
 .info-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
